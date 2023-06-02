@@ -1,6 +1,7 @@
 ---
 - name: My first play
   hosts: test
+  connection: local
   tasks:
    - name: Hello
      ansible.builtin.debug:
